@@ -1,0 +1,30 @@
+VARIAVEIS - guarda dados na memoria (var, let ou const)
+
+(var), (let) é possivel mudar as variaveis declaradas, já o (const)
+
+var idade = 19;      let preco = 50;      const senha = 12345;
+idade = 20;          lpreco = 25;         senha = 54321;
+                                          //retorna um erro
+
+
+                                 \   /                                       /
+DRY var preco = 20                \ /    var preco = 20,                    /          
+    var quantidade = 3             X         quantidade = 3            \   /           
+    var total = preco * quantidade/ \        total = preco * quantidade \ /            
+                                 /   \                                   V
+SINTAXE - palavra chave (var) seguida do nome, sinal de igual e o valor
+
+SEM VALOR var senha = ('')
+//retorna undefined
+
+NOME VARIAVEIS 
+começar com $, _, ou letras
+case sensitive = SeNhA <> senha
+camelcase = nomeFuncionarioSetor
+não usar palavras reservadas
+
+HOISTING - são movidas para cima do código, mas o valor não é movido
+
+console.log(nome)
+var nome =('Gustavo')
+//retorna undefined

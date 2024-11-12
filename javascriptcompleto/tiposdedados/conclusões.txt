@@ -1,0 +1,24 @@
+7 TIPOS DE dados
+todos são primitivos exceto os objetos (PRIMITIVOS SÃO DADOS IMUTÁVEIS);
+
+var nome = 'Gustavo'; //string
+    idade = 19; // number
+    possuiFaculdade = true; // boolean
+    time; //undefined
+    comida = null; //null
+    simbolo = symbol() // symbol
+    novoObjeto = {} // object
+---------------------------------------------------------------------------------------------------------------------------
+IDENTIFICAR TIPO DE dados
+utiliznado (typeof) + variavel
+
+var nome = 'andre';
+console.log(typeof nome);
+
+TEMPLATE STRING 
+
+utilizar (``) para uma frase junto com strings
+
+var gols = 1000;
+console.log('romario fez ' + gols + 'gols') X    /
+console.log(`romario fez ${gols} gols`)    <--  V
